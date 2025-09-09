@@ -16,7 +16,9 @@ export default function RootLayout({ children }) {
         <Navbar />
 
         {/* Page Content */}
+        
         <main className="pt-28">{children}</main>
+        
 
         {/* Footer */}
         <Footer />
